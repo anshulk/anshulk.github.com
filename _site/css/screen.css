@@ -1,0 +1,30 @@
+body{
+	font-family:ubuntu;
+}
+
+/*
+.two{
+	display:none
+}
+*/
+
+#header{
+	font-size:150%;
+	font-weight:normal;
+	text-align:center;
+}
+
+.surname{
+	font-size:90%;
+	opacity:0.5;
+}
+/*#header:hover .one{
+	display:none;
+	transition-duration: 1s;
+}
+
+#header:hover .two{
+	display:inline;
+	transition-duration: 1s;
+}
+*/
