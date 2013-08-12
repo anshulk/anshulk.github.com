@@ -1,25 +1,49 @@
 body{
+	
 	font-family:ubuntu;
 }
 
-/*
-.two{
-	display:none
-}
-*/
-
 #header{
-	opacity:0.2;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;		
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	text-decoration: none;
+	opacity:0.4;
 	font-size:150%;
 	font-weight:normal;
 	text-align:center;
 }
 
+.firstname{
+	text-decoration: none;
+	color: black;
+}
+
 .surname{
+	text-decoration: none;
+	color: black;
 	font-size:90%;
-	opacity:0.55555;
+	opacity:0.5;
 }
 
 #header:hover{
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;		
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 	opacity:1;
 }
+
+.posts{
+	text-align:center;
+}
+
+#content{
+	width: 60%;
+	text-align:center;
+	margin: auto;	
+}
+	
