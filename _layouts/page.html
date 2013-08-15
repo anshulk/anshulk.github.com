@@ -2,7 +2,11 @@
 layout: default
 ---
 
+<div>
+<div id="title">{{ page.title }}</div>
+<div id="pdate">{{ page.date | date_to_long_string }}</div> 
+</div>
 <div id="content">
-<h2>{{ page.title }}</h2>
 {{ content }}
+</div>
 </div>
