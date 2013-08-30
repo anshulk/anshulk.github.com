@@ -1,6 +1,7 @@
 body{
 	
 	font-family:ubuntu;
+	height: 100%;
 }
 
 #header{
@@ -85,7 +86,7 @@ text-align: center;}
 	height:100px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	position:fixed;
+	position:absolute;
 	
 }
 
