@@ -14,6 +14,8 @@ body{
 	font-size:150%;
 	font-weight:normal;
 	text-align:center;
+	position:relative;
+	width: 100%;
 }
 
 .firstname{
@@ -35,15 +37,117 @@ body{
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
+	transform:scale(1.2, 1.2);	
+	-webkit-transform:scale(1.2, 1.2);
 }
+
 
 .posts{
 	text-align:center;
+	width: 94%;
+}
+
+#postname{
+	text-decoration: none;
+	font-size: 25px;
+}
+
+#date{
+	opacity: 0.5;
+	}
+
+#title{
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
 }
 
 #content{
 	width: 60%;
-	text-align:center;
+	text-align:left;
 	margin: auto;	
 }
+
+#pdate{
+opacity: 0.5;
+width: 100%; 
+text-align: center;}
 	
+#new, #g, #fb, #gh, #in{
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	float: left;
+	margin-left: 6%;
+	margin-top:9%;
+	width:100px;
+	height:100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position:fixed;
+	
+}
+
+#new{	
+	background-image:url(/image/a1.png);
+	background-size:100px 100px;
+	z-index:200;
+	}
+
+#g{
+	background-image:url(/image/g.png);
+	background-size: 60px 60px;
+	z-index:10;
+	}
+
+#fb{	
+	background-image:url(/image/fb.png);
+	background-size: 60px 60px;
+	z-index:10;
+	}
+#gh{
+	background-image:url(/image/gh.png);
+	background-size: 60px 60px;
+	z-index:10;
+	}
+
+#in{
+	background-image:url(/image/in.png);
+	background-size: 60px 60px;
+	z-index:10;
+	}
+
+
+#new:hover ~ #g, #g:hover{
+	-webkit-transition: all 1s ease;
+	transform: all 1s ease;
+	transform:translate(0px, 90px);
+	-webkit-transform:translate(0px,90px);
+	}
+
+#new:hover ~ #fb, #fb:hover{
+	-webkit-transition: all 1s ease;
+	transform: all 1s ease;
+	transform:translate(0px, -90px);
+	-webkit-transform:translate(0px,-90px);
+	}
+
+#new:hover ~ #gh, #gh:hover{
+	-webkit-transition: all 1s ease;
+	transform: all 1s ease;
+	transform:translate(90px, 0px);
+	-webkit-transform:translate(90px,0px);
+	}
+
+#new:hover ~ #in, #in:hover{
+	-webkit-transition: all 1s ease;
+	transform: all 1s ease;
+	transform:translate(-90px, 0px);
+	-webkit-transform:translate(-90px,0px);
+	}
+#space{
+margin-top: 100px;}
+.g-comments{
+	margin-top: 40px;
+	}
