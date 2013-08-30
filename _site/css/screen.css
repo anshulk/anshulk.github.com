@@ -86,7 +86,7 @@ text-align: center;}
 	height:100px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	position:absolute;
+	position:fixed;
 	
 }
 
