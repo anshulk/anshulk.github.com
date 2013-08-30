@@ -147,5 +147,8 @@ text-align: center;}
 	transform:translate(-90px, 0px);
 	-webkit-transform:translate(-90px,0px);
 	}
-
-
+#space{
+margin-top: 100px;}
+.g-comments{
+	margin-top: 40px;
+	}
