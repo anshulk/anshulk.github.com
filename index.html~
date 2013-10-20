@@ -1,0 +1,12 @@
+---
+layout: default
+title: Anshul Kushwaha 
+---
+
+<ul class="posts">
+    {% for post in site.posts %}
+    <a id="postname" href="{{ post.url }}">{{ post.title }}</a>
+    <br>
+    <a id="date"> {{ post.date | date_to_long_string }} </a>
+    {% endfor %}
+</ul>

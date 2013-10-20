@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>Anshul Kushwaha</title>
+   <title>{{ page.title }}</title>
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
    <script>
@@ -28,33 +28,12 @@
         <a href="http://in.linkedin.com/in/anshulkushwaha" id="in" target="_blank"></a>
  	<section class="container">
     <div id="threed">
-  			<a id="c1"></a>
-  			<a id="c2"></a>
-  			<a id="c3"></a>
+  			<a id="c1">1</a>
+  			<a id="c2">2</a>
+  			<a id="c3">3</a>
   	<div>
   </section>
-        <ul class="posts">
-    
-    <a id="postname" href="/2013/10/20/saucy.html">Ubuntu 13.10 Scopy Salamander</a>
-    <br>
-    <a id="date"> 20 October 2013 </a>
-    <br>
-    <br>
-    
-    <a id="postname" href="/2013/09/14/story.html">The story behind this blog.</a>
-    <br>
-    <a id="date"> 14 September 2013 </a>
-    <br>
-    <br>
-    
-    <a id="postname" href="/2013/09/07/whoami.html">Hi!, Anshul here.</a>
-    <br>
-    <a id="date"> 07 September 2013 </a>
-    <br>
-    <br>
-    
-</ul>
-
+        {{ content }}
     </div>
 </body>
 </html>
