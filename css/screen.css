@@ -158,7 +158,7 @@ text-align: center;}
 	position: fixed;
 	height: 100px;
 	width: 100px;
-	top: 26%;
+	margin-top: 9%;
 	left: 80%;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
