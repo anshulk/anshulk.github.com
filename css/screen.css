@@ -51,7 +51,7 @@ width: 100%;
 .posts{
 	text-align:center;
 	margin-top: 50px;
-   margin-left: 25%;
+   margin: auto;
 	width: 50%;
 }
 
