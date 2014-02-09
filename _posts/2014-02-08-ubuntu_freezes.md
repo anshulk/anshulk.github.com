@@ -1,11 +1,11 @@
 ---
 layout: page
-title: What to do if Ubuntu hangs ? 
+title: What to do if Ubuntu freezes ? 
 ---
 
 __I love Ubuntu.__ 
 
-> Nothing is perfect though, and ubuntu does hang some times. 
+> Nothing is perfect though, and ubuntu does freeze some times. 
 
 __Symptoms__
 
