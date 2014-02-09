@@ -19,6 +19,7 @@ Well, if you can bear all your _applications getting closed_, you can restart ju
 * run the command : {% highlight bash%}
 			sudo kill `pgrep XOrg`
 		{% endhighlight %}
+* enter your password
 
 and voila! you're at the login screen. I know what you were doing is gone, but at least you didn't have to restart ;)
 
