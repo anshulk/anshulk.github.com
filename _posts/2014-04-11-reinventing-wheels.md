@@ -33,6 +33,6 @@ On the other hand, I believe its _foolishness_ to write the same code again and 
 
 >I wonder where you draw the line. 
 
-I'm glad there are libraries like GLib and at the same miss having to fight (think) my way out of a problem. 
+I'm glad there are libraries like GLib and at the same time miss having to fight (think) my way out of a problem. 
 
 Do you love using wheels ?
