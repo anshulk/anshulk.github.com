@@ -10,7 +10,8 @@ To the extent that I love coding from _scratch_, from the *bottom*.
 What I mean, is not using __ready-to-use__ and god-knows-how-it-works functions and features of a language. I really witnessed this to a huge extent when I started developing __mobile apps__. For a basic app, you just need to click some buttons and do some __drag and drop__, and its done. I was like _" Where's the coding ? "_. 
 
 More precisely this will be called,
->__Reinventing The Wheel__
+
+> __Reinventing The Wheel__
 
 I personally love __thinking out__ the way to solve a problem, instead of just using a function. At least I wished to do that. But _I wonder if I really did so_. I'll talk in the context of **C**, the language I adore and code in.
 
