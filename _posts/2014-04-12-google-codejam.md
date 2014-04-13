@@ -21,6 +21,6 @@ The problem is quite insteresting and I did try to figure out a way to solve thi
 * __Deceitful War__  
 The hero of this round. The problem starts with a warning that its not for beginners. Sorting out this one was the most enjoyable part and pen-paper came in handy. I __highly recommend__ this problem to anyone who thinks he is a coder.
 
-I can see that my coding style has evolved and I now use structs and functions more, leading to a  clener and more beautiful, elegant code. May be I'll upload my code on github.
+I can see that my coding style has evolved and I now use structs and functions more, leading to a  cleaner and more beautiful, elegant code. May be I'll upload my code on github.
 
 Thanks for reading.
