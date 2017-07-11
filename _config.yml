@@ -1,9 +1,9 @@
-pygments: true
-paginate: 6 
+hightlighter: rouge
+paginate: 6
 paginate_path: "/blog/page:num"
 markdown: kramdown
-kramdown : 
+kramdown :
   use_coderay : true
   coderay :
-    coderay_line_numbers : nil 
+    coderay_line_numbers : nil
     coderay_default_lang : c
