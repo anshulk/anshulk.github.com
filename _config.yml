@@ -2,6 +2,22 @@ hightlighter: rouge
 paginate: 6
 paginate_path: "/blog/page:num"
 markdown: kramdown
+title: 'Tech and Random blog'
+description: 'Self notes and tech solutions about what I learn while my coding journey'
+url: 'http://anshul.github.io'
+author: Anshul Kushwaha
+twitter:
+  username: anshlk
+social:
+  name: Anshul Kushwaha
+  links:
+    - https://twitter.com/anshlk
+    - https://www.facebook.com/anshul.kushwaha
+    - https://www.linkedin.com/in/AnshulKushwaha
+    - https://angel.co/anshulk
+    - https://github.com/anshulk
+    - https://stackoverflow.com/users/3476344/anshulk
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag

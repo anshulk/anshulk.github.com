@@ -1,5 +1,5 @@
 body{
-	
+
 	font-family:ubuntu;
 	height: 200%;
 	text-decoration: none;
@@ -11,7 +11,7 @@ width: 100%;
 
 #header{
 	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;		
+	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
@@ -39,12 +39,12 @@ width: 100%;
 
 #header:hover{
 	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;		
+	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
-	transform:scale(1.2, 1.2);	
+	transform:scale(1.2, 1.2);
 	-webkit-transform:scale(1.2, 1.2);
 }
 
@@ -75,18 +75,24 @@ width: 100%;
 }
 
 #content{
-	width: 50%;
+	width: 90%;
 	text-align:left;
 	margin: auto;
 	word-wrap: break-word;
-	font-size:120%;	
+	font-size:120%;
+}
+
+@media screen and (min-width: 480px) {
+	#content{
+		width: 50%;
+	}
 }
 
 #pdate{
 opacity: 0.5;
-width: 100%; 
+width: 100%;
 text-align: center;}
-	
+
 #new, #g, #fb, #gh, #in{
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
@@ -98,10 +104,10 @@ text-align: center;}
 	background-repeat: no-repeat;
 	background-position: center center;
 	position:fixed;
-	
+
 }
 
-#new{	
+#new{
 	background-image:url(/image/a1.png);
 	background-size:100px 100px;
 	z-index:200;
@@ -113,7 +119,7 @@ text-align: center;}
 	z-index:10;
 	}
 
-#fb{	
+#fb{
 	background-image:url(/image/fb.png);
 	background-size: 60px 60px;
 	z-index:10;
@@ -198,8 +204,8 @@ text-align: center;}
 #c3{
 	background: hsla(240, 100%, 50%, .1);
 	border: 1px solid blue;
-	-webkit-transform: rotateY(90deg);	
-	-moz-transform: rotateY(90deg);	
+	-webkit-transform: rotateY(90deg);
+	-moz-transform: rotateY(90deg);
 	}
 @-webkit-keyframes spin {
         0% { -webkit-transform:  rotateY(   0deg ) rotateX(   360deg ) rotateZ(180deg); }
