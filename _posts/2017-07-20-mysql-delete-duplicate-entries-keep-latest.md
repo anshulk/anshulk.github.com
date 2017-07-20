@@ -1,6 +1,8 @@
 ---
 layout: page
 title: How to delete duplicate entries from MySQL keeping only latest entry
+publisher: anshulk.github.io
+image: /image/a1.png
 ---
 
 ***Note to self***
