@@ -3,6 +3,7 @@ layout: page
 title: How to delete duplicate entries from MySQL keeping only latest entry
 publisher: anshulk.github.io
 image: /image/a1.png
+description: This is how you delete duplicate entries from MySQL keeping only latest entry
 ---
 
 ***Note to self***
