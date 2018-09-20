@@ -18,7 +18,7 @@ width: 100%;
 	text-decoration: none;
 	margin-top: 20px;
 	opacity:0.4;
-	font-size:170%;
+	font-size:200%;
 	font-weight:normal;
 	text-align:center;
 	position:relative;
@@ -44,8 +44,8 @@ width: 100%;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
 	opacity:1;
-	transform:scale(1.2, 1.2);
-	-webkit-transform:scale(1.2, 1.2);
+	/* transform:scale(1.2, 1.2);
+	-webkit-transform:scale(1.2, 1.2); */
 }
 
 
@@ -54,7 +54,7 @@ width: 100%;
 	margin: 0px;
 	padding: 0;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 #postname{
