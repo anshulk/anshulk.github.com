@@ -18,5 +18,5 @@ WHERE id NOT IN (
 )
 ```
 
-[source 1](https://stackoverflow.com/questions/6107167/mysql-delete-duplicate-records-but-keep-latest)
+[source 1](https://stackoverflow.com/questions/6107167/mysql-delete-duplicate-records-but-keep-latest)  
 [source 2](https://stackoverflow.com/questions/45494/mysql-error-1093-cant-specify-target-table-for-update-in-from-clause)
